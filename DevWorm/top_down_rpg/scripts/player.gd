@@ -5,7 +5,7 @@ var current_dir = "none"
 
 var enemy_inattack_range = false
 var enemy_attack_cooldown = true
-var health = 120
+var health = 100
 var player_alive = true
 
 #attack in progress
@@ -19,7 +19,7 @@ func _physics_process(delta: float) -> void:
 	enemy_attack()
 	attack()
 	current_camera()
-	
+	update_health()
 	
 	if health <=0:
 		player_alive = false #end game menu
@@ -145,3 +145,21 @@ func current_camera():
 	elif global.current_scene == "cliff_side":
 		$camera_world.enabled = false
 		$camera_cliffside.enabled = true
+
+func update_health():
+	var healthbar = $health_bar
+	healthbar.value = health
+	
+	#if you don't want it to be shown all the time
+	if health >= 100:
+		healthbar.visible = false
+	else:
+		healthbar.visible = true
+
+func _on_regen_timer_timeout() -> void:
+	if health < 100:
+		health = health + 20
+		if health > 100:
+			health = 100
+		if health <= 0:
+			health = 0
