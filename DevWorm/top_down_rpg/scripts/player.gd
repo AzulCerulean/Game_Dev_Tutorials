@@ -18,6 +18,8 @@ func _physics_process(delta: float) -> void:
 	player_movement(delta)
 	enemy_attack()
 	attack()
+	current_camera()
+	
 	
 	if health <=0:
 		player_alive = false #end game menu
@@ -135,3 +137,11 @@ func _on_deal_attack_timer_timeout():
 	$deal_attack_timer.stop()
 	global.player_current_attack = false
 	attack_ip = false
+
+func current_camera():
+	if global.current_scene == "world":
+		$camera_world.enabled = true
+		$camera_cliffside.enabled = false
+	elif global.current_scene == "cliff_side":
+		$camera_world.enabled = false
+		$camera_cliffside.enabled = true
