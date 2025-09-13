@@ -1,7 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757105808
+::res://::1757796305
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::6564268947468103023::1695689778::0::1::::<><><>0<>0<><>::
 icon.png::CompressedTexture2D/CompressedTexture2D::621515402784007901::1695689778::1757105567::1::::<><><>0<>0<>130257868ffab54ab02a8c8a0dce8413<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+player.gd::GDScript::5087844954474644992::1757107599::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::1494603086695365218::1757107696::0::1::::<><><>0<>0<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://cequce5naavam::::res://player.gd
 ::res://addons/::1757105572
 ::res://addons/colorpicker_presets/::1757105572
 colorpicker_presets.gd::GDScript/GDScript::2823290907867202288::1695689778::0::1::::<>EditorPlugin<><>0<>1<><>::
@@ -11,7 +13,7 @@ README.md::TextFile/TextFile::-1::1695689778::0::1::::<><><>0<>0<><>::
 ground_shadow.png::CompressedTexture2D/CompressedTexture2D::4668018078467755571::1695689778::1757105567::1::::<><><>0<>0<>60a6f91138009a5e14677d0e89feec49<>res://.godot/imported/ground_shadow.png-b9267d10ca04362d5b540659e4ab0dbd.ctex::
 ::res://characters/happy_boo/::1757105596
 happy_boo.gd::GDScript/GDScript::8925669650609701874::1695689778::0::1::::<>Node2D<><>0<>0<><>::
-happy_boo.tscn::PackedScene::31049085407951015::1757105591::0::1::::<><><>0<>0<><>::uid://d0fwqfg5m7n3g::::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
+happy_boo.tscn::PackedScene/PackedScene::31049085407951015::1757105591::0::1::::<><><>0<>0<><>::uid://d0fwqfg5m7n3g::::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
 square_body.png::CompressedTexture2D/CompressedTexture2D::5512411640973615011::1695689778::1757105567::1::::<><><>0<>0<>0b4c0947d903928eb8fb04b8f87d9964<>res://.godot/imported/square_body.png-ef1c56c8912cd968d7fd09a95e6ea8f4.ctex::
 square_face.png::CompressedTexture2D/CompressedTexture2D::6285503871772747319::1695689778::1757105567::1::::<><><>0<>0<>f4c2c4badf63b8294e485cba765e8c44<>res://.godot/imported/square_face.png-e27720ce35d82859f41580927c22ef18.ctex::
 square_foot.png::CompressedTexture2D/CompressedTexture2D::926853635980280533::1695689778::1757105567::1::::<><><>0<>0<>d725c258d28082ae7c7a6a7c13346867<>res://.godot/imported/square_foot.png-62023e9ce7985c4b370739df29445354.ctex::
@@ -21,7 +23,7 @@ square_ref.png::CompressedTexture2D/CompressedTexture2D::4290601870950781964::16
 square_upper_leg.png::CompressedTexture2D/CompressedTexture2D::1148792968243506332::1695689778::1757105567::1::::<><><>0<>0<>d91921efbb1038764a191d9082911a30<>res://.godot/imported/square_upper_leg.png-e1f848aab7dd8805f40f881c2160a53d.ctex::
 ::res://characters/slime/::1757105596
 slime.gd::GDScript/GDScript::7526731587413692945::1695689778::0::1::::<>Node2D<><>0<>0<><>::
-slime.tscn::PackedScene::995535223809565591::1757105591::0::1::::<><><>0<>0<><>::uid://dvgfmy6vtvjji::::res://characters/slime/slime_body.png<>uid://dfiaf1a810vyf::::res://characters/slime/slime.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://c078jrp2yvc4s::::res://characters/slime/slime_face.png<>uid://btbxea1f3vwot::::res://characters/slime/slime_body_hurt.png<>uid://cai2ijnbypqtr::::res://characters/slime/slime_hurt_eyes.png
+slime.tscn::PackedScene/PackedScene::995535223809565591::1757105591::0::1::::<><><>0<>0<><>::uid://dvgfmy6vtvjji::::res://characters/slime/slime_body.png<>uid://dfiaf1a810vyf::::res://characters/slime/slime.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://c078jrp2yvc4s::::res://characters/slime/slime_face.png<>uid://btbxea1f3vwot::::res://characters/slime/slime_body_hurt.png<>uid://cai2ijnbypqtr::::res://characters/slime/slime_hurt_eyes.png
 slime_body.png::CompressedTexture2D/CompressedTexture2D::8645940357922743702::1695689778::1757105567::1::::<><><>0<>0<>45f2894876e2ce5d98592ba9c588c993<>res://.godot/imported/slime_body.png-0d515f9e912a0d42a36c28f828394f6a.ctex::
 slime_body_hurt.png::CompressedTexture2D/CompressedTexture2D::3723476765009385039::1695689778::1757105567::1::::<><><>0<>0<>90f39b7d1869604090f9f1f038fbe1be<>res://.godot/imported/slime_body_hurt.png-3f38b75e5ebee1f99a984b348a7e7f8b.ctex::
 slime_face.png::CompressedTexture2D/CompressedTexture2D::6595643196702037820::1695689778::1757105567::1::::<><><>0<>0<>2f525095401e87cf36bdb3245da3baaa<>res://.godot/imported/slime_face.png-561a1f87b138570340118953f07aab21.ctex::
@@ -32,15 +34,15 @@ projectile.png::CompressedTexture2D/CompressedTexture2D::7550039277502144023::16
 ::res://pistol/impact/::1757105596
 circle.png::CompressedTexture2D/CompressedTexture2D::8141367643636554889::1695689778::1757105567::1::::<><><>0<>0<>4418f1ac0745885142215c68d922e1bb<>res://.godot/imported/circle.png-a2fa3270dee1c1c7e1cb0869903e82df.ctex::
 impact.gd::GDScript/GDScript::4880436869050947357::1695689778::0::1::::<>Node2D<><>0<>0<><>::
-impact.tscn::PackedScene::706737085132625066::1757105591::0::1::::<><><>0<>0<><>::uid://cbsec2aq27bsf::::res://pistol/impact/impact.gd<>uid://dn80eu1qs371v::::res://pistol/impact/circle.png
+impact.tscn::PackedScene/PackedScene::706737085132625066::1757105591::0::1::::<><><>0<>0<><>::uid://cbsec2aq27bsf::::res://pistol/impact/impact.gd<>uid://dn80eu1qs371v::::res://pistol/impact/circle.png
 ::res://pistol/muzzle_flash/::1757105599
 muzzle_flash.gd::GDScript/GDScript::3681536403587732974::1695689778::0::1::::<>Node2D<><>0<>0<><>::
 muzzle_flash.png::CompressedTexture2D/CompressedTexture2D::3592944556550980239::1695689778::1757105567::1::::<><><>0<>0<>28453999893b9aac4db20fa2c44b723d<>res://.godot/imported/muzzle_flash.png-752b19c1a1a60c24eac6f205d487f2ea.ctex::
-muzzle_flash.tscn::PackedScene::6601472980654318439::1757105591::0::1::::<><><>0<>0<><>::uid://bspmmp5kh0rqs::::res://pistol/muzzle_flash/muzzle_flash.gd<>uid://brgpjilf7s2ul::::res://pistol/muzzle_flash/muzzle_flash.png
+muzzle_flash.tscn::PackedScene/PackedScene::6601472980654318439::1757105591::0::1::::<><><>0<>0<><>::uid://bspmmp5kh0rqs::::res://pistol/muzzle_flash/muzzle_flash.gd<>uid://brgpjilf7s2ul::::res://pistol/muzzle_flash/muzzle_flash.png
 ::res://smoke_explosion/::1757105599
 circle_32.png::CompressedTexture2D/CompressedTexture2D::6271663262871881894::1695689778::1757105567::1::::<><><>0<>0<>c453c076bdbc64f9e2d4065be3748769<>res://.godot/imported/circle_32.png-ff53eadac5c62484a55afe7e47d5145f.ctex::
 smoke_explosion.gd::GDScript/GDScript::1777103444175006170::1695689778::0::1::::<>Node2D<><>0<>0<><>::
 smoke_explosion.gdshader::Shader/Shader::2856133485004033664::1695689778::0::1::::<><><>0<>0<><>::
-smoke_explosion.tscn::PackedScene::7675803860678853612::1757105591::0::1::::<><><>0<>0<><>::uid://bgxsdpaa3ewf5::::res://smoke_explosion/smoke_explosion.gdshader<>uid://0k3vtaf7n2g1::::res://smoke_explosion/smoke_explosion.gd
+smoke_explosion.tscn::PackedScene/PackedScene::7675803860678853612::1757105591::0::1::::<><><>0<>0<><>::uid://bgxsdpaa3ewf5::::res://smoke_explosion/smoke_explosion.gdshader<>uid://0k3vtaf7n2g1::::res://smoke_explosion/smoke_explosion.gd
 ::res://trees/::1757105567
 pine_tree.png::CompressedTexture2D/CompressedTexture2D::4806194308614878228::1695689778::1757105567::1::::<><><>0<>0<>6a122cb6169ee7ccf60dc7df23de6a40<>res://.godot/imported/pine_tree.png-d61929395d8fbd7dd9882891dc69101d.ctex::
